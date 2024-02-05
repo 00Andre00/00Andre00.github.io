@@ -1,98 +1,97 @@
 {
 
-    "Header.Item1": "Acerca de mi",
-    "Header.Item2": "Experiencia",
-    "Header.Item3": "Proyectos",
-    "Header.Item4": "Contacto",
-    "Header.cvBtn": "Curriculum",
-    "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
+  "Header.Item1": "Acerca de mi",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Proyectos",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Curriculum",
+  "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
 
-    "Banner.Pretitle": "Hola! Mi nombre es",
-    "Banner.Description": "Estoy acabando <span class='underline'>la carrera universitaria de Ingenieria de Sistemas</span> enfocandome en desarrollo backend y seguridad en <span class='underline'>La universidad de Huánuco</span> y en ocaciones realizando proyectos de <span class='underline'>Inteligencia Artificial.</span>",
-    "Banner.ActionBtn": "Contacto",
+  "Banner.Pretitle": "Hola! Mi nombre es",
+  "Banner.Description": "Estoy acabando <span class='underline'>la carrera universitaria de Ingenieria de Sistemas</span> enfocandome en desarrollo backend y seguridad en <span class='underline'>La universidad de Huánuco</span> y en ocaciones realizando proyectos de <span class='underline'>Inteligencia Artificial.</span>",
+  "Banner.ActionBtn": "Contacto",
 
-    "AboutMe.Title": "Acerca de mi",
-    "AboutMe.Paragraphs": [
-        "En mis <span class='underline'>4 años que llevo estudiando </span> busco capacitarme y mejor cada día en las areas que tengo afinidad. <span class='underline'></span><span class='underline'></span> probe diferentes areas como backend, frontend, analisis de sistemas entre otros. <span class='underline'>Laravel, Mysql, Angular, Django, etc.</span>"
-    ],
+  "AboutMe.Title": "Acerca de mi",
+  "AboutMe.Paragraphs": [
+      "En mis <span class='underline'>4 años que llevo estudiando </span> busco capacitarme y mejor cada día en las areas que tengo afinidad. <span class='underline'></span><span class='underline'></span> probe diferentes areas como backend, frontend, analisis de sistemas entre otros. <span class='underline'>Laravel, Mysql, Angular, Django, etc.</span>"
+  ],
 
-    "Experience.Title": "Experiencia",
-    "Experience.Jobs": [
+  "Experience.Title": "Experiencia",
+  "Experience.Jobs": [
 
-      {
-        "Tab": "Web",
-        "Title": "Universidad",
-        "Date": "2022",
-        "Description": [
-          "Desarrollo de webs trabajando en frontend y backend.",
-          "Creacion de plataformas con Angular, Laravel.",
-          "Automatizacion de procesos con estructuras de datos.",
-          "Maquetacion de diseños con Bootstrap, Bulma, etc."
-        ]
+    {
+      "Tab": "Web",
+      "Title": "Universidad",
+      "Date": "2022",
+      "Description": [
+        "Desarrollo de webs trabajando en frontend y backend.",
+        "Creacion de plataformas con Angular, Laravel.",
+        "Automatizacion de procesos con estructuras de datos.",
+        "Maquetacion de diseños con Bootstrap, Bulma, etc."
+      ]
+    },
+    {
+      "Tab": "Movil",
+      "Title": "Universidad",
+      "Date": "2023",
+      "Description": [
+        "Desarrollo de apps moviles en android para finalidades simples como ajuste de horarios o matriculas"
+      ]
+    },
+    {
+      "Tab": "Base de datos",
+      "Title": "Universidad",
+      "Date": "2022",
+      "Description": [
+        "Analisis de base de datos en Mysql Workbench, sqllite, etc."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Certificados",
+  "FeatureProjects.Label": "Certificados",
+  "FeatureProjects.Projects": [{
+          "Title": "Javascript",
+          "Description": "Certificado en JavaScript que valida mi capacidad para desarrollar aplicaciones web dinámicas y efectivas. <span class='underline'>Javascript</span><span class='underline'></span><span class='underline'></span>",
+          "imgs": [
+              "assets/images/agrourbana/1.png"
+          ],
+          "Technologies": ["Javascript"]
       },
+
       {
-        "Tab": "Movil",
-        "Title": "Universidad",
-        "Date": "2023",
-        "Description": [
-          "Desarrollo de apps moviles en android para finalidades simples como ajuste de horarios o matriculas"
-        ]
-      },
-      {
-        "Tab": "Base de datos",
-        "Title": "Universidad",
-        "Date": "2022",
-        "Description": [
-          "Analisis de base de datos en Mysql Workbench, sqllite, etc."
-        ]
+          "Title": "Scrum",
+          "Description": "Certificado en Scrum que respalda mi experiencia en la gestión ágil de proyectos de software.",
+          "imgs": ["assets/images/agrourbana/2.png"],
+          "Technologies": ["Scrum"]
       }
-    ],
-
-    "FeatureProjects.Title": "Mis proyectos",
-    "FeatureProjects.Label": "Proyecto Destacado",
-    "FeatureProjects.Projects": [{
-            "Title": "X",
-            "Description": "X<span class='underline'>Y</span>Z<span class='underline'></span><span class='underline'></span>",
-            "imgs": [
-                "assets/images/agrourbana/download.jpg"
-            ],
-            "Technologies": ["XYZ"]
-        },
-
-        {
-            "Title": "Countries viewer",
-            "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
-        }
-    ],
+  ],
 
 
 
-    "OtherProjects.Title": "Mas proyectos",
-    "OtherProjects.Projects": [{
-            "Title": "Pokemon",
-            "Description": "Buscador de pokemons que utiliza la pokeapi. Se usó programación orientada a objetos para organizar la información de los pokemons junto con su respectiva imagen.",
-            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
-            "demoLink": "https://proyectos.andresjosehr.com/pokemon-list",
-            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
-        },
+  "OtherProjects.Title": "Mas proyectos",
+  "OtherProjects.Projects": [{
+          "Title": "Pokemon",
+          "Description": "Buscador de pokemons que utiliza la pokeapi. Se usó programación orientada a objetos para organizar la información de los pokemons junto con su respectiva imagen.",
+          "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+          "demoLink": "https://proyectos.andresjosehr.com/pokemon-list",
+          "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+      },
 
-        {
-            "Title": "Profile card",
-            "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
-            "ghLink": "https://github.com/andresjosehr/profile-card-component",
-            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-            "Technologies": ["Angular", "SASS", "GIT"]
-        }
-    ],
+      {
+          "Title": "Profile card",
+          "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
+          "ghLink": "https://github.com/andresjosehr/profile-card-component",
+          "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
+          "Technologies": ["Angular", "SASS", "GIT"]
+      }
+  ],
 
-    "Contact.Pretitle": "Y... ¿Ahora?",
-    "Contact.Title": "¡Saludame!",
-    "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
-    "Contact.Btn": "Contactame"
+  "Contact.Pretitle": "Y... ¿Ahora?",
+  "Contact.Title": "Contactame!",
+  "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
+  "Contact.Btn": "Contactame"
 
 
 }
+
