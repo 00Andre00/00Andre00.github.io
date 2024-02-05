@@ -49,23 +49,21 @@
     ],
 
     "FeatureProjects.Title": "Mis proyectos",
-    "FeatureProjects.Label": "Proyecto Destacado",
+    "FeatureProjects.Label": "Certificados",
     "FeatureProjects.Projects": [{
-            "Title": "X",
-            "Description": "X<span class='underline'>Y</span>Z<span class='underline'></span><span class='underline'></span>",
+            "Title": "Javascript",
+            "Description": "Certificado en JavaScript que valida mi capacidad para desarrollar aplicaciones web dinámicas y efectivas. <span class='underline'>Javascript</span><span class='underline'></span><span class='underline'></span>",
             "imgs": [
-                "assets/images/agrourbana/download.jpg"
+                "assets/images/agrourbana/1.png"
             ],
-            "Technologies": ["XYZ"]
+            "Technologies": ["Javascript"]
         },
 
         {
-            "Title": "Countries viewer",
-            "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+            "Title": "Scrum",
+            "Description": "Certificado en Scrum que respalda mi experiencia en la gestión ágil de proyectos de software.",
+            "imgs": ["assets/images/agrourbana/2.png"],
+            "Technologies": ["Scrum"]
         }
     ],
 
