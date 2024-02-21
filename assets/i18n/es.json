@@ -70,21 +70,7 @@
 
 
     "OtherProjects.Title": "Mas proyectos",
-    "OtherProjects.Projects": [{
-            "Title": "Pokemon",
-            "Description": "Buscador de pokemons que utiliza la pokeapi. Se usó programación orientada a objetos para organizar la información de los pokemons junto con su respectiva imagen.",
-            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
-            "demoLink": "https://proyectos.andresjosehr.com/pokemon-list",
-            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
-        },
-
-        {
-            "Title": "Profile card",
-            "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
-            "ghLink": "https://github.com/andresjosehr/profile-card-component",
-            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-            "Technologies": ["Angular", "SASS", "GIT"]
-        }
+    "OtherProjects.Projects": [
     ],
 
     "Contact.Pretitle": "Y... ¿Ahora?",
